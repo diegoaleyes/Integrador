@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mediaqueries.css">
     <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.class
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +14,18 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">🍕</div>
+       <img src="./pizzaimg/mortadela pistaccio.jpg" class="logo">
        
-        <nav class="navbar">
-            <ul>
+       <nav class="navbar">
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+        <label for="menu-checkbox" class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+            
+            
+            <ul class="navbar-list">
                 <li><a href="#Hero">Home</a></li>
                 <li><a href="#Nosotros">Nosotros</a></li>
                 <li><a href="#Pizzas">Pizzas</a></li>
