@@ -689,6 +689,9 @@ height: 400px;
     .menu-toggle {
         display: flex; /* Mostrar el botón hamburguesa */
     }
+    .logo {
+        display: none;
+    }
 
     .header {
         width: 100%;
@@ -784,8 +787,10 @@ height: 400px;
         flex-wrap: wrap;
     }
 #Footer {
-    align-items: center;
+    
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vh;
 }
 .footer ul {
@@ -809,5 +814,7 @@ height: 400px;
     .footer-end p {
         font-size: 15px;
     }
+
+    
 }
   
