@@ -89,15 +89,6 @@ header {
     font-weight: 900;
    } 
 
-    /* main */
-/* 
-    background: var(--background);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 100%; */
     main {
         display: flex;
         justify-content: center;
@@ -112,10 +103,7 @@ header {
 
         
     }
-    /* body {
-        background: var(--background);
-        color: var(--text);
-    } */
+    
 
     .btn-container {
         display: flex;
@@ -150,10 +138,7 @@ header {
    }
 /* seccion 1 Hero */
 #hero {
-/* 
-    width: 100vh;
-    height: 100vh;
-    top: 65px; */
+
     margin-top: 65px;
     padding: 70px 0;
     max-width: 1200px;
@@ -278,10 +263,7 @@ header {
     flex-wrap: nowrap;
         
     gap: 50px;
-    /* margin: 60px;
-    margin-left: 0;
-    margin-right: 0; */
-    /* max-width: 1200px; */
+    
  
   
 }
@@ -419,14 +401,7 @@ header {
 .pizza-top p {
     font-size: 12px;
 }
-/* 
-.pizza-med {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 10px;
-    height: 5px;
-} */
+
 
 .pizza-bot {
     display: flex;
@@ -634,7 +609,7 @@ height: 400px;
     font-size: 15px;
   }
 
-/* Lista de navegación */
+
 .navbar-list {
     display: flex;
     list-style: none;
@@ -648,12 +623,12 @@ height: 400px;
     color: white;
   }
     
- /* Ocultar el checkbox por defecto */
+
 .menu-checkbox {
     display: none;
 }
 
-/* Estilos para las barras del menú hamburguesa */
+/* Estilos burguer */
 .menu-toggle span {
     width: 25px;
     height: 3px;
@@ -662,15 +637,15 @@ height: 400px;
     transition: all 0.3s ease;
 }
 
-/* Botón hamburguesa */
+/* Botón burguer */
 .menu-toggle {
-    display: none; /* Ocultar por defecto */
+    display: none; 
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
 }
 
-/* Lista de navegación */
+
 .navbar-list {
     display: flex;
     list-style: none;
@@ -684,10 +659,10 @@ height: 400px;
     color: white;
 }
 
-/* Media Query - Pantallas más pequeñas */
+/* Media Query - tablet */
 @media (max-width: 992px) {
     .menu-toggle {
-        display: flex; /* Mostrar el botón hamburguesa */
+        display: flex; 
     }
     .logo {
         display: none;
@@ -698,7 +673,7 @@ height: 400px;
     }
   
     .navbar-list {
-        display: none; /* Ocultar lista de navegación por defecto */
+        display: none; 
         position: absolute;
         top: 65px;
         left: 5%;
@@ -713,7 +688,7 @@ height: 400px;
         gap: 15px;
     }
   
-    /* Mostrar la lista de navegación cuando el checkbox está activado */
+   
     .menu-checkbox:checked ~ .navbar-list {
         display: flex;
     }
@@ -779,7 +754,7 @@ height: 400px;
         box-shadow: 0px 0px 30px var(--btn-bg);
     }
     .pizza-card img {
-        width: 100%;
+        width: 120px;
     }
     .pizza-price {
         color: var(--secondary);
@@ -868,7 +843,7 @@ height: 400px;
         gap: 30px;
     }
     .footer ul {
-        background: red;
+        
     }
     .footer p {
         font-weight: 200;

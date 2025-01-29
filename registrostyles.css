@@ -152,6 +152,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     text-align: center;
+        width: 100%;
     
   }
   .principaltexto {
@@ -159,5 +160,7 @@ input:focus {
   }
   .calltoaction {
     gap: 20PX;
+    justify-content: center;
+    margin-right: 10px;
   }
 }
