@@ -280,6 +280,14 @@ header {
     border-radius: 10px;
 }
 
+.about-us-container h3 span {
+    background: linear-gradient(to right, #30714d, #fbf9fb, rgb(176, 72, 72));
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;    
+    
+}
+
 .about-us-container p {
     color: var(--bg-azul-10);
     font-size: 18PX;
@@ -793,6 +801,24 @@ height: 400px;
         font-weight: 800;
     }
 
+    .about-us-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 25px;
+    
+      }
+    
+      .about-us-container h3 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+    
+      .about-us-container h3 span {
+        font-size: 25px;
+        font-weight: 800;
+      }
+      
     #Contacto {
 
         display: flex;
@@ -840,7 +866,29 @@ height: 400px;
   .header {
     max-width: 100%;
   }
-    .title-section {
+  .about-us-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 25px;
+
+  }
+
+  .about-us-container h3 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .about-us-container h3 span {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+  .img-about-us {
+    
+  }
+  
+  .title-section {
         display: flex
     ;
         flex-direction: column;
