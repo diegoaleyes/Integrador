@@ -726,6 +726,9 @@ height: 400px;
         gap: 33px;
 
     }
+    .hero-container {
+        margin: 0;
+    }
     .hero-container h1 {
         width: 90%;
         max-width: 500px;
@@ -737,7 +740,7 @@ height: 400px;
         display: none;
     }
     
-    #nosotros h2 {
+    #Nosotros h2 {
          width: 90%;
          text-align: center;
       
@@ -747,7 +750,7 @@ height: 400px;
         padding: 0;
         margin: 0;
         align-items: center;
-        gap: 15px;
+        gap: 30px;
         
         text-align: center;
         justify-content: center;
@@ -757,7 +760,7 @@ height: 400px;
         display: flex;
         flex-wrap: wrap;
         
-        gap: 10px;
+        gap: 40px;
     }
     .img-about-us img {
         width: 200px;
@@ -765,13 +768,22 @@ height: 400px;
     }
     #Pizzas {
         text-align: center;
+        gap: 30px;
 
     }
     .pizza-card {
+       margin: 20px 15px;
         width: 180px;
-        height: 300px;
+        height: 310px;
         background: var(--btn-txt);
         box-shadow: 0px 0px 30px var(--btn-bg);
+    }
+    .pizza-card img {
+        width: 100%;
+    }
+    .pizza-price {
+        color: var(--secondary);
+        font-weight: 800;
     }
 
     #Contacto {
@@ -791,7 +803,7 @@ height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vh;
+    max-width: 90%;
 }
 .footer ul {
     display: flex;
@@ -817,4 +829,59 @@ height: 400px;
 
     
 }
-  
+ @media (max-width: 576px) {
+  .header {
+    max-width: 100%;
+  }
+    .title-section {
+        display: flex
+    ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        color: var(--text);
+        gap: 50px;
+    }
+    .contact-container {
+        display: flex
+    ;
+        align-items: center;
+        gap: 45px;
+        justify-content: space-around;
+        height: 100%;
+        /* flex-direction: column; */
+        max-width: 100%;
+        margin: 10px;
+    }
+    .map-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        height: 400px;
+        max-width: 100%;
+    }
+
+    .footer {
+        gap: 30px;
+    }
+    .footer ul {
+        background: red;
+    }
+    .footer p {
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .footer ul li img {
+        border-radius: 10px;
+    }
+    .info-contacto p {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+ }
