@@ -599,14 +599,26 @@ height: 400px;
     color: var(--secondary);
     font-weight: 600;
     font-size: 20px;
-    
+  
  
 
     }
+    .footer ul {
+        display: flex;
+        gap: 25px;
+        border-radius: 10px;
+    }
   
   .footer li {
+    display: flex;
+    border-radius: 25px;
     font-weight: 400;
     font-size: 15px;
+
+  }
+
+  .footer img {
+    border-radius: 10px;
   }
 
 
