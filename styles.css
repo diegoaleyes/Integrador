@@ -727,6 +727,15 @@ height: 400px;
         align-items: center;
         justify-content: center;
         align-items: center;
+        background: linear-gradient(to right, #30714d, #fbf9fb, rgb(176, 72, 72));
+        background-clip: text;
+        color: transparent;
+    }
+
+    .hero-container p {
+         background: linear-gradient(to right, #30714d, #fbf9fb, rgb(176, 72, 72));
+        background: transparent;
+        color: var(--nav-bg);
     }
     .hero-card-section {
         display: none;
