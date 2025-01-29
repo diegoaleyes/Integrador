@@ -752,8 +752,9 @@ height: 400px;
 
     }
     .pizza-card {
+        
        margin: 20px 15px;
-        width: 180px;
+        width: 205px;
         height: 310px;
         background: var(--btn-txt);
         box-shadow: 0px 0px 30px var(--btn-bg);
